@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Escribe en google",
+  "description": "Escribe la palabra casa en el buscador de Google",
+  "version": "1.0",
+  "icons": {
+    "128": "icon.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://www.google.com/*"]
+}
