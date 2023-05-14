@@ -6,7 +6,14 @@
   "icons": {
     "128": "icon.png"
   },
-  "permissions": ["storage", "activeTab", "scripting", "tabs"],
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "tabs",
+    "notifications",
+    "contextMenus"
+  ],
   "background": {
     "service_worker": "background.js"
   },
